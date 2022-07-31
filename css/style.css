@@ -160,7 +160,7 @@ opacity: 1;
   filter: drop-shadow(0px 0px 0px black);
   width: 25%;
   height: 100%;
-  background-color: white;
+  background-color: #ffffff00;
   z-index: 5;
   border-right: 2px solid #3699d6;
 }
@@ -169,7 +169,7 @@ opacity: 1;
   overflow: hidden;
   display: block;
   width: 100%;
-  background-color: white;
+  background-color: #ffffff00;
 }
 #block-user-chat>div:active{
 transform: scale(0.8);
@@ -185,7 +185,7 @@ width: 80%;
 
 margin-left: 20%;
 letter-spacing: 0.8px;
-background-color: white;
+background-color: #ffffff00;
 }
 #user-boxs{
   position: absolute;
@@ -267,7 +267,7 @@ background-color: white;
   filter: drop-shadow(0px 0px 0px black);
   width: 25%;
   height: 100%;
-  background-color: white;
+  background-color: #ffffff00;
   z-index: 5;
   border-left: 2px solid #3699d6;
 }
