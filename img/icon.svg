@@ -1,0 +1,5 @@
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>    <svg id="svg-box-groop" style="  filter: drop-shadow(0px 0px 6px black);position: relative;z-index: 30;display: block;margin-left: 15%;width: 415px;" viewBox="0 0 1000 1500">
+     <polyline points="100,400 250,500 250,1300 100,1200" fill="white" class="base-01"></polyline>
+     <polyline points="400,200 500,130 600,200 600,1400 500,1470 400,1400" fill="white" class="base-01"></polyline>
+     <polyline points="750,500 900,400 900,1200 750,1300" fill="white" class="base-01"></polyline>
+    </svg>

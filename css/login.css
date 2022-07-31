@@ -1,0 +1,166 @@
+body{
+  margin: auto;
+  display: flex;
+  background: linear-gradient(265deg, #2689da, #000000);
+}
+#all{
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  position: absolute;
+  background: linear-gradient(265deg, #000000, #2689da, #094a7f, #000000 );
+  background-size: 400% 400%;
+  -webkit-animation: gradientBG 10s ease infinite;
+  animation: gradientBG 10s ease infinite;
+}
+#name-map{
+  user-select: none;
+  z-index: 1;
+  position: relative;
+  margin: auto;
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  display: block;
+  letter-spacing: 12px;
+  margin-top: 14%;
+}
+#name-map>a{
+  filter: drop-shadow(2px 4px 6px black);
+}
+#box-login{
+  width: 100%;
+      background-color: #ffa50000;
+      position: relative;
+      display: block;
+      margin: auto;
+      margin-top: 10px;
+}
+@-webkit-keyframes gradientBG {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+}
+@keyframes gradientBG {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+}
+#box-login>div:first-child>input{
+  display: block;
+    margin: auto;
+    width: 75%;
+    margin-top: 5px;
+    height: 25px;
+    background-color: #ffffff00;
+    border: 0px;
+    transition: 0.2s;
+      filter: drop-shadow(2px 4px 6px black);
+    color: white;
+    text-align: center;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+#box-login>div:first-child>input[type="text"]:focus{
+  color: white;
+  border-bottom: 2px solid white;
+  transition: 0.5s;
+  transform: scale(1.2);
+
+}
+#box-login>div:first-child>input:last-child{
+  width: 65%;
+}
+#box-login>div:first-child>input[type="text"]:focus::placeholder{
+  color: white;
+}
+#box-login>div:first-child>input[type="password"]:focus{
+  color: white;
+  border-bottom: 2px solid white;
+  transition: 0.5s;
+  transform: scale(1.2);
+
+}
+#box-login>div:first-child>input[type="password"]:focus::placeholder{
+  color: white;
+}
+#box-login>div:first-child>input::placeholder{
+  color: white;
+}
+#box-login>div{
+  display: block;
+margin: auto;
+margin-top: 0px;
+}
+#box{
+  display:block;
+  margin:auto;
+}
+#svg-box-groop {
+  filter: drop-shadow(0px 0px 6px black);
+    position: relative;
+    z-index: 30;
+    display: block;
+    margin-left: 15%;
+    width: 415px;
+}
+.base-01 {
+    fill: white;
+}
+#box-login>div:last-child{
+  margin-top: 20px;
+}
+#box-login>div:last-child>input:first-child{
+  width: 14%;
+
+  border: 2px solid white;
+}
+#box-login>div:last-child>input:last-child{
+  width: 55%;
+  border: 0px;
+  letter-spacing: 2px;
+  margin-top: 0px;
+}
+#box-login>div:last-child>input:last-child:active{
+  border: 0px;
+}
+#box-login>div:last-child>input:last-child:hover{
+  border: 0px;
+}
+#box-login>div:last-child>input{
+  display: block;
+    margin: auto;
+    margin-top: 5px;
+      filter: drop-shadow(2px 4px 6px black);
+    width: 65%;
+    cursor: pointer;
+    height: 25px;
+    background-color: #ffffff00;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+    border: 0px
+}
+#box-login>div:last-child>input[type="button"]:first-child:active{
+  color: #ffffff80;
+  border: 2px solid #ffffff80;
+}
+#box-login>div:last-child>input[type="button"]:active{
+  color: #ffffff80;
+}
