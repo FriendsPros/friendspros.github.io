@@ -162,7 +162,7 @@ opacity: 1;
   height: 100%;
   background-color: #ffffff00;
   z-index: 5;
-  border-right: 2px solid #ffffff;
+  /*! border-right: 2px solid #ffffff; */
 }
 
 #user-boxs > div{
@@ -183,7 +183,7 @@ transition: 1s;
   display: block;
 width: 80%;
 
-margin-left: 20%;
+margin-left: 18%;
 letter-spacing: 0.8px;
 background-color: #ffffff00;
 }
@@ -236,7 +236,7 @@ background-color: #ffffff00;
   height: 25px;
   color: #202126;
   margin-left: -8px;
-  padding-right: 10px;
+  padding-right: 35px;
   outline: none;
   border-radius: 100px;
 }
@@ -269,7 +269,7 @@ background-color: #ffffff00;
   height: 100%;
   background-color: #ffffff00;
   z-index: 5;
-  border-left: 2px solid #ffffff;
+  /*! border-left: 2px solid #ffffff; */
 }
 input {
   width: 75%;
@@ -456,6 +456,8 @@ background-color: #eeeeee;
 border-top-left-radius: 100px;
 border-bottom-left-radius: 100px;
 transition: 0.4s;
+border-radius: ;
+border-radius: 100px;
 }
 #block-user-chat>div>div:first-child>div:first-child{
   height: 50px;
@@ -471,7 +473,7 @@ transition: 0.4s;
       /* border-radius: 100px; */
       /* margin: auto; */
       margin-left: 10px;
-          width: 60%;
+          width: 55%;
       display: block;
       overflow: hidden;
 }
@@ -533,6 +535,8 @@ transition: 0.4s;
   height: 9%;
   background-color: white;
   display: flex;
+  border-radius: 30px;
+  margin-top: 5px;
 }
 #like-file{
   height: auto;
@@ -547,7 +551,7 @@ transition: 0.4s;
 height: 50px;
 margin-top: 4px;
 width: 50px;
-margin-left: 10px;
+margin-left: 4px;
 border-radius: 100px;
 border:3px solid #176fcf;
 }
@@ -609,7 +613,7 @@ color:#8e9595;
 }
 #chat-last-call>div>img{
   height: 60%;
-  margin-top: 35%;
+  margin-top: 23%;
   cursor: pointer;
   transition: 1s;
 }
@@ -647,6 +651,7 @@ color:#8e9595;
       padding-top: 5px;
       padding-bottom: 5px;
       background-color: #ffffff;
+  border-radius: 20px;
 }
 
 #chat-box-input>div{
@@ -1102,13 +1107,14 @@ justify-content: flex-end;
 }
 
 #music-box-buttom-player{
-  background: rgb(16,63,112);
-background: linear-gradient(90deg, rgba(16,63,112,1) 0%, rgba(28,112,200,1) 100%);
+  /*! background: rgb(16,63,112); */
+/*! background: linear-gradient(90deg, rgba(16,63,112,1) 0%, rgba(28,112,200,1) 100%); */
   display: flex;
   bottom:0px;
   left: 0px;
   height: 40px;
   width: 100%;
+  margin-top: 16px;
 }
 #music-buttom-box{
   display: flex;
